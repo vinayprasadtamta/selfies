@@ -98,7 +98,7 @@ class VAEEncoder(nn.Module):
         This trick is explained well here:
             https://stats.stackexchange.com/a/16338
         """
-        std = torch.exp(0.5 * log_var)
+        std = torch.exp(0.5 * log_var) %This transformation converts the log-variance to the standard deviation, which is needed to sample from the Gaussian distribution.
         eps = torch.randn_like(std)
         return eps.mul(std).add_(mu)
 
