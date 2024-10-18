@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+ 
+ First Change
+ 
  SELFIES: a robust representation of semantically constrained graphs with an
            example application in chemistry (https://arxiv.org/abs/1905.13741)
            by Mario Krenn, Florian Haese, AkshatKuman Nigam, Pascal Friederich, Alan Aspuru-Guzik
